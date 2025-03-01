@@ -5,21 +5,7 @@ import math
 
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        answer = []
-        stack = []
-        for i in range(len(temperatures)):
-            today_temp = temperatures[i]
-            while True:
-                i += 1
-                stack.append(temperatures[i])
-                if temperatures[i] > today_temp:
-                    break
-            while True:
-                
-            answer.append(len(stack))
-            stack.pop()
-
-        return answer
+        return None
 
 
 solution = Solution()
